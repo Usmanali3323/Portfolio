@@ -6,7 +6,7 @@ import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import react from "../assets/react.png";
 
-function Experience(){
+function Experience() {
   const Technologies = [
     {
       id: 1,
@@ -47,7 +47,10 @@ function Experience(){
   ];
 
   return (
-    <div name='experience' className="flex flex-col justify-center items-center bg-gradient-to-b from-gray-500 to-black h-auto text-white">
+    <div
+      name="experience"
+      className="flex flex-col justify-center items-center bg-gradient-to-b from-gray-500 to-black h-auto text-white"
+    >
       <div className="max-w-screen-lg px-4">
         <div className="pt-28 px-4 mb-10 ">
           <div className="mb-10">
